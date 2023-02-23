@@ -1,0 +1,3 @@
+docker run --rm -p 5432:5432 -v postgres-data:/var/lib/postgressql/data -e POSTGRES_USER=t_retail_user -e POSTGRES_PASSWORD=t_retail_pass -e POSTGRES_DB=t_retail_db -e POSTGRES_HOST_AUTH_METHOD=md5 -itd postgres:latest
+
+docker run --rm -p 3306:3306  -v mysql-data:/var/lib/mysql/:rw -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=s_retail_db -e MYSQL_USER=s_retail_user -e MYSQL_PASSWORD=s_retail_pass -itd mysql:latest mysqld --default-authentication-plugin=mysql_native_password

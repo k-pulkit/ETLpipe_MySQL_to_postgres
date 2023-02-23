@@ -1,0 +1,30 @@
+version: '2'
+services:
+            mysql:
+                image: mysql:8
+                command: mysqld --default-authentication-plugin=mysql_native_password
+                restart: always
+                environment:
+                        MYSQL_ROOT_PASSWORD: password
+                        MYSQL_DATABASE: s_retail_db
+                        MYSQL_USER: s_retail_user
+                        MYSQL_PASSWORD: s_retail_pass
+                ports:
+                        - "3306:3306"
+                volumes:
+                        - mysql-data:/var/lib/mysql/:rw
+            postgres:
+                image: postgres:latest
+                restart: always
+                environment:
+                        POSTGRES_USER: t_retail_user
+                        POSTGRES_PASSWORD: t_retail_pass
+                        POSTGRES_DB: t_retail_db
+                        POSTGRES_HOST_AUTH_METHOD: md5
+                ports:
+                        - "5432:5432"
+                volumes:
+                        - postgres-data:/var/lib/postgressql/data/:rw
+volumes:
+        mysql-data:
+        postgres-data:

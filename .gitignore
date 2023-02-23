@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore where setting env vars
+set_environs.sh
+
 # C extensions
 *.so
 

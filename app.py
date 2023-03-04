@@ -17,8 +17,8 @@ def main():
     
     print(DB_DETAILS.get(env, None))
     
-    for idx, table in get_tables().iterrows():
-        print(idx, table)
+    for table in get_tables()["table_name"]:
+        print(table)
     
 if __name__ == "__main__":
     main()

@@ -6,15 +6,15 @@ DB_DETAILS = {
             "DB_TYPE": "mysql",
             "DB_HOST": "localhost",
             "DB_NAME": "s_retail_db",
-            "DB_USER": env["SOURCE_DB_USER"],
-            "DB_PASS": env["SOURCE_DB_KEY"]
+            "DB_USER": env.get("SOURCE_DB_USER", None),
+            "DB_PASS": env.get("SOURCE_DB_KEY", None)
         },
         "TARGET_DB": {
             "DB_TYPE": "postgres",
             "DB_HOST": "localhost",
             "DB_NAME": "t_retail_db",
-            "DB_USER": env["TARGET_DB_USER"],
-            "DB_PASS": env["TARGET_DB_KEY"]
+            "DB_USER": env.get("TARGET_DB_USER", None),
+            "DB_PASS": env.get("TARGET_DB_KEY", None)
         }
     }
 }

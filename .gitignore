@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.vscode/*
+
 # Ignore where setting env vars
 set_environs.sh
 

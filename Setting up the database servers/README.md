@@ -2,6 +2,20 @@
 
 We are hosting the PostGresSQL and MYSQL servers on a computing instance running in GCP virtual machine. The servers have been setup with the help of docker images.
 
+For starting the compute instance, on next login:
+```shell
+gcloud compute instances start instance-z --zone=zone-name
+
+#switch user
+sudo su - root
+sysmtemctl start docker
+
+docker-compose up
+
+# After this, just do a local port forward to access the databases on the localhost of dev machine
+ssh -i ~/.ssh/google_compute_engine -L 3306:localhost:3306 -L 5432:localhost:5432  user@IP
+```
+
 In summary the steps are - 
 1. Pull the docker image for both MySQL and PostGreSQL
 2. Create a docker compose file to start the database servers

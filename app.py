@@ -1,8 +1,20 @@
-import sys
+import sys, argparse
+import logging, logging.config
+from config import DB_DETAILS
 
 def main():
-    print("Hello")
-    print(list(sys.argv))
+    logging.config.fileConfig("logging.cfg")
+    logger = logging.getLogger(__name__)
+    logger.info(f"Application has started - {sys.argv[0]}")
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--env", help="enviroment of the application", required=True)
+    args = parser.parse_args()
+    
+    env = args.env
+    logger.info(f"Env has been set to : {env}")
+    
+    print(DB_DETAILS.get(env, None))
     
 if __name__ == "__main__":
     main()

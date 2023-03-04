@@ -1,6 +1,7 @@
 import sys, argparse
 import logging, logging.config
 from config import DB_DETAILS
+from util import get_tables
 
 def main():
     logging.config.fileConfig("logging.cfg")
@@ -15,6 +16,9 @@ def main():
     logger.info(f"Env has been set to : {env}")
     
     print(DB_DETAILS.get(env, None))
+    
+    for idx, table in get_tables().iterrows():
+        print(idx, table)
     
 if __name__ == "__main__":
     main()

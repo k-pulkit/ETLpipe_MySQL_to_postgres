@@ -1,7 +1,7 @@
 import logging
 import pandas as pd
 from config import DB_DETAILS
-import mysql.connector as mysql
+from mysql import connector as mysql
 from mysql.connector import errorcode as mysql_errors
 import psycopg2 as postgres
 from psycopg2 import errorcodes as postgres_errors
@@ -16,6 +16,8 @@ def get_db_details(env):
     return DB_DETAILS.get(env, None)
 
 def get_mysql_connection(db_host, db_name, db_user, db_pass):
+    "connection to mysql"
+    connection=None
     try:
         connection = mysql.connect(user=db_user, password=db_pass, host=db_host, database=db_name)
     except mysql.Error as error:
@@ -26,16 +28,20 @@ def get_mysql_connection(db_host, db_name, db_user, db_pass):
     return connection
 
 def get_postgres_connection(db_host, db_name, db_user, db_pass):
+    "connection to postgres"
+    connection=None
     try:
-        connection = postgres.connect(host=db_host, database=db_name, user=db_user, password=db_pass)
+        connection = postgres.connect(host=db_host, database=db_name, user=db_user, password=db_pass, port=5432)
     except postgres.OperationalError as error:
-        if error.errno == postgres_errors.INVALID_PASSWORD or error.errno == postgres_errors.INVALID_AUTHORIZATION_SPECIFICATION:
+        if error.pgcode == postgres_errors.INVALID_PASSWORD or error.pgcode == postgres_errors.INVALID_AUTHORIZATION_SPECIFICATION:
             logging.error("Error establishing the connection to postgres. Reason invalid credentials")
         else:
             logging.error(f"Unable to connect - {error}")
     return connection
 
 def get_connection(db_type, db_host, db_name, db_user, db_pass):
+    "connection to the database"
+    # logging.info(f"{db_type}, {db_host}, {db_name}, {db_user}, {db_pass}")
     connection=None
     if db_type == "mysql":
         return get_mysql_connection(db_host, db_name, db_user, db_pass)

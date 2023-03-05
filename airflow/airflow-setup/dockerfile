@@ -1,0 +1,31 @@
+FROM apache/airflow:2.5.1
+
+# Set the user to airflow
+USER root
+
+# Install locales package and generate the en_US.UTF-8 locale
+RUN apt-get update && \
+    apt-get -y  install unzip && \
+    apt-get -y  install build-essential && \
+    apt-get -y  install python-dev && \
+    apt-get -y  install libsasl2-dev && \
+    apt-get -y install locales && \
+    rm -rf /var/lib/apt/lists/*
+RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
+    locale-gen
+
+USER airflow
+
+ENV LANG en_US.UTF-8 
+ENV LANGUAGE en_US:en 
+ENV LC_ALL en_US.UTF-8
+ENV LANG C.UTF-8
+
+# Set the Python IO encoding to UTF-8
+
+RUN python3 -c "print('UTF8')"
+RUN python3 -c "print('UTF8 works nice! 👌')"
+
+# Copy requirements.txt and install the required packages
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt

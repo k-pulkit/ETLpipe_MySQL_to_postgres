@@ -1,0 +1,8 @@
+pandas
+apache-airflow[postgres]
+apache-airflow[mysql]
+gclou
+apache-airflow[hadoop]
+apache-airflow[hive]
+apache-airflow[google]
+apache-airflow[celery]

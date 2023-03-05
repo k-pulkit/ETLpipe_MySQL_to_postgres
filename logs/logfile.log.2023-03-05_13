@@ -1,0 +1,7 @@
+2023-03-05 13:12:17 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-05 13:12:17 - __main__ - INFO - Env has been set to : dev
+2023-03-05 13:12:17 - __main__ - INFO - Test the reading module
+2023-03-05 13:12:17 - root - INFO - Reading order from source
+2023-03-05 13:12:18 - __main__ - INFO - Test the writing module
+2023-03-05 13:12:18 - root - INFO - Number of records inserted into table - 1
+2023-03-05 13:12:18 - root - INFO - Reading test from target

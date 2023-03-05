@@ -2,7 +2,7 @@ version: '3'
 
 services:
   postgres:
-    image: postgres:12
+    image: postgres:13
     container_name: postgres-airflow
     restart: always
     environment:
@@ -18,21 +18,26 @@ services:
   redis:
     image: redis:6-alpine
     container_name: redis-airflow
-    restart: always
+    restart: on-failure
     ports:
       - "6379:6379"
 
   webserver:
-    image: apache/airflow:2.2.3
+    image: my_airflow
     container_name: airflow-webserver
-    command: ["bash", "-c", "airflow db init && airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin && airflow webserver"]
+    command: ["bash", "-c", 
+      "airflow db init && 
+      airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin && 
+      airflow webserver -D && 
+      airflow scheduler -D"]
     depends_on:
       - postgres
       - redis
-    restart: always
+    restart: on-failure
     environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
       - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres/${POSTGRES_DB:-airflow}
       - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
       - AIRFLOW__WEBSERVER__SECRET_KEY=${SECRET_KEY:-changeme}
@@ -44,6 +49,7 @@ services:
       - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
     volumes:
       - dags:/opt/airflow/dags:rw
+      - dags-examples:/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags:rw
       - logs:/opt/airflow/logs:rw
       - plugins:/opt/airflow/plugins:rw
     ports:
@@ -51,6 +57,12 @@ services:
 
 volumes:
   postgres-data:
+  dags-examples:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/pulkit42041/airflow/dags-examples
   dags:
     driver: local
     driver_opts:

@@ -1,0 +1,326 @@
+2023-03-04 16:30:42 - root - INFO - This is a new Stest message
+2023-03-04 16:32:10 - root - INFO - This is a new Stest message
+2023-03-04 16:32:40 - root - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:32:53 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:37:00 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:37:06 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:37:24 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:37:31 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:37:46 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:38:07 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:38:07 - __main__ - INFO - Env has been set to : PROD
+2023-03-04 16:40:46 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:40:46 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:41:50 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:41:50 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:41:56 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:41:56 - __main__ - INFO - Env has been set to : prod
+2023-03-04 16:42:11 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:42:11 - __main__ - INFO - Env has been set to : prod
+2023-03-04 16:42:12 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:42:12 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:55:47 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:55:47 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:56:29 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:56:29 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:56:42 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:56:42 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:56:52 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:56:52 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:56:56 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:56:56 - __main__ - INFO - Env has been set to : dev
+2023-03-04 16:57:55 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:58:13 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 16:59:52 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:00:10 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:01:05 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:01:07 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:01:13 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:05:32 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:09:48 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:10:11 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:11:13 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:11:36 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:11:45 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:11:45 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:11:51 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:11:51 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:12:26 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:12:38 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:12:38 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:12:49 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:12:49 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:12:57 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:12:57 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:13:24 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:13:24 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:15:57 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:15:57 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:18:24 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:18:24 - __main__ - INFO - Env has been set to : dev
+2023-03-04 17:19:13 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 17:19:13 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:11:18 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:11:18 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:12:10 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:12:10 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:12:57 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:12:57 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:14:53 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:14:53 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:15:42 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:15:42 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:15:42 - root - ERROR - Unable to connect - 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 22
+2023-03-04 18:16:08 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:16:08 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:16:08 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:16:40 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:16:40 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:16:40 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:17:06 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:17:06 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:17:06 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:17:20 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:17:20 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:17:20 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:19:59 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:19:59 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:20:00 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:28:09 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:28:09 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:28:09 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:28:44 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:28:44 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:28:44 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:28:54 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:28:54 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:28:54 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:29:07 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:29:07 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:29:07 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:29:10 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:29:10 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:29:10 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:29:37 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:29:37 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:29:38 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:29:42 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:29:42 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:29:42 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:30:44 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:30:44 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:30:44 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 18:30:45 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 18:31:57 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 18:31:57 - __main__ - INFO - Env has been set to : dev
+2023-03-04 18:31:57 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 18:31:57 - root - ERROR - Error establishing the connection to mysql. Reason invalid credentials
+2023-03-04 19:24:35 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 19:24:35 - __main__ - INFO - Env has been set to : dev
+2023-03-04 19:24:35 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 20:13:09 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 20:13:09 - __main__ - INFO - Env has been set to : dev
+2023-03-04 20:13:09 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 20:13:09 - root - ERROR - Unable to connect - 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 22
+2023-03-04 20:13:39 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 20:13:39 - __main__ - INFO - Env has been set to : dev
+2023-03-04 20:13:39 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 20:50:56 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 20:50:56 - __main__ - INFO - Env has been set to : dev
+2023-03-04 20:50:56 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 20:51:33 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 20:51:33 - __main__ - INFO - Env has been set to : dev
+2023-03-04 20:51:33 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 20:51:41 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 20:51:41 - __main__ - INFO - Env has been set to : dev
+2023-03-04 20:51:41 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:18:17 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:18:17 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:18:17 - __main__ - INFO - Reading order from source
+2023-03-04 21:18:17 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:18:18 - __main__ - INFO - Reading order from target
+2023-03-04 21:18:18 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_key
+2023-03-04 21:21:20 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:21:20 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:21:20 - __main__ - INFO - Reading order from source
+2023-03-04 21:21:20 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:21:20 - __main__ - INFO - Reading order from target
+2023-03-04 21:21:20 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_key
+2023-03-04 21:21:21 - root - ERROR - Unable to connect - FATAL:  password authentication failed for user "t_retail_user"
+
+2023-03-04 21:22:02 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:22:02 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:22:02 - __main__ - INFO - Reading order from source
+2023-03-04 21:22:02 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:22:02 - __main__ - INFO - Reading order from target
+2023-03-04 21:22:02 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_key
+2023-03-04 21:22:02 - root - ERROR - Unable to connect - FATAL:  password authentication failed for user "t_retail_user"
+
+2023-03-04 21:23:42 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:23:42 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:23:42 - __main__ - INFO - Reading order from source
+2023-03-04 21:23:42 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:23:43 - __main__ - INFO - Reading order from target
+2023-03-04 21:23:43 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_key
+2023-03-04 21:23:43 - root - ERROR - Unable to connect - FATAL:  password authentication failed for user "t_retail_user"
+
+2023-03-04 21:23:56 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:23:56 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:23:56 - __main__ - INFO - Reading order from source
+2023-03-04 21:23:56 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_key
+2023-03-04 21:23:57 - __main__ - INFO - Reading order from target
+2023-03-04 21:23:57 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_key
+2023-03-04 21:25:05 - root - ERROR - Unable to connect - FATAL:  password authentication failed for user "t_retail_user"
+
+2023-03-04 21:29:38 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:29:38 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:29:38 - __main__ - INFO - Reading order from source
+2023-03-04 21:29:38 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 21:29:39 - __main__ - INFO - Reading order from target
+2023-03-04 21:29:39 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 21:30:03 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:30:03 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:30:03 - __main__ - INFO - Reading order from source
+2023-03-04 21:30:03 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 21:33:31 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:33:36 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 21:33:36 - __main__ - INFO - Env has been set to : dev
+2023-03-04 21:33:36 - __main__ - INFO - Reading order from source
+2023-03-04 21:33:36 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 21:33:37 - __main__ - INFO - Reading order from target
+2023-03-04 21:33:37 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:05:29 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:05:29 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:05:29 - __main__ - INFO - Reading order from source
+2023-03-04 22:05:29 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:05:29 - root - ERROR - Unable to connect - 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 22
+2023-03-04 22:05:58 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:05:58 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:05:58 - __main__ - INFO - Reading order from source
+2023-03-04 22:05:58 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:05:58 - __main__ - INFO - Reading order from target
+2023-03-04 22:05:58 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:07:13 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:07:13 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:07:13 - __main__ - INFO - Reading order from source
+2023-03-04 22:07:13 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:07:14 - __main__ - INFO - Reading order from target
+2023-03-04 22:07:14 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:08:38 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:08:38 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:08:38 - __main__ - INFO - Reading order from source
+2023-03-04 22:08:38 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:08:38 - __main__ - INFO - Reading order from target
+2023-03-04 22:08:38 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:08:43 - root - ERROR - Could not execute the query - {e}
+2023-03-04 22:09:20 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:09:20 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:09:20 - __main__ - INFO - Reading order from source
+2023-03-04 22:09:20 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:09:20 - __main__ - INFO - Reading order from target
+2023-03-04 22:09:20 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:09:21 - root - ERROR - Could not execute the query - {e}
+2023-03-04 22:09:49 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:09:49 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:09:49 - __main__ - INFO - Reading order from source
+2023-03-04 22:09:49 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:09:50 - __main__ - INFO - Reading order from target
+2023-03-04 22:09:50 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:09:50 - root - ERROR - Could not execute the query - {e}
+2023-03-04 22:10:05 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:10:05 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:10:05 - __main__ - INFO - Reading order from source
+2023-03-04 22:10:05 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:10:05 - __main__ - INFO - Reading order from target
+2023-03-04 22:10:05 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:10:05 - root - ERROR - Could not execute the query - relation "test" does not exist
+LINE 1: select * from test limit 5
+                      ^
+
+2023-03-04 22:12:10 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:12:10 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:12:10 - __main__ - INFO - Reading order from source
+2023-03-04 22:12:10 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:12:10 - __main__ - INFO - Reading order from target
+2023-03-04 22:12:10 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:13:52 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:13:52 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:13:52 - __main__ - INFO - Reading order from source
+2023-03-04 22:13:52 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:13:53 - __main__ - INFO - Reading order from target
+2023-03-04 22:13:53 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:37:25 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:37:25 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:37:25 - __main__ - INFO - Reading order from source
+2023-03-04 22:37:25 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:37:25 - root - ERROR - Unable to connect - 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 22
+2023-03-04 22:37:58 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:37:58 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:37:58 - __main__ - INFO - Reading order from source
+2023-03-04 22:37:58 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:37:58 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:37:58 - root - ERROR - Could not execute the query - syntax error at or near "johny"
+LINE 1: INSERT INTO test (id,name) VALUES ('33', ''johny'')
+                                                   ^
+
+2023-03-04 22:37:58 - __main__ - INFO - Reading order from target
+2023-03-04 22:37:58 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:39:16 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:39:16 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:39:16 - __main__ - INFO - Reading order from source
+2023-03-04 22:39:16 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:39:16 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:39:17 - root - ERROR - Could not execute the query - unsupported format character ',' (0x2c) at index 35
+2023-03-04 22:39:17 - __main__ - INFO - Reading order from target
+2023-03-04 22:39:17 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:39:36 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:39:36 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:39:36 - __main__ - INFO - Reading order from source
+2023-03-04 22:39:36 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:39:36 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:40:19 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:40:19 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:40:19 - __main__ - INFO - Reading order from source
+2023-03-04 22:40:19 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:40:20 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:40:49 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:40:49 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:40:49 - __main__ - INFO - Reading order from source
+2023-03-04 22:40:49 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:40:50 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:40:59 - root - INFO - Number of records inserted into table - 1
+2023-03-04 22:41:17 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:41:17 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:41:17 - __main__ - INFO - Reading order from source
+2023-03-04 22:41:17 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:41:17 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:41:20 - root - INFO - Number of records inserted into table - 1
+2023-03-04 22:41:20 - __main__ - INFO - Reading order from target
+2023-03-04 22:41:20 - root - INFO - postgres, localhost, t_retail_db, t_retail_user, t_retail_pass
+2023-03-04 22:54:30 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:54:30 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:54:30 - __main__ - INFO - Test the reading module
+2023-03-04 22:54:30 - root - INFO - Reading order from source
+2023-03-04 22:54:30 - root - INFO - mysql, localhost, s_retail_db, s_retail_user, s_retail_pass
+2023-03-04 22:55:37 - root - ERROR - Unable to connect - 2026 (HY000): SSL connection error: error:00000000:lib(0):func(0):reason(0)
+2023-03-04 22:57:41 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:57:41 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:57:41 - __main__ - INFO - Test the reading module
+2023-03-04 22:57:41 - root - INFO - Reading order from source
+2023-03-04 22:57:41 - __main__ - INFO - Test the writing module
+2023-03-04 22:57:42 - root - INFO - Number of records inserted into table - 1
+2023-03-04 22:57:42 - root - INFO - Reading order from target
+2023-03-04 22:58:01 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:58:01 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:58:01 - __main__ - INFO - Test the reading module
+2023-03-04 22:58:01 - root - INFO - Reading order from source
+2023-03-04 22:58:02 - __main__ - INFO - Test the writing module
+2023-03-04 22:58:02 - root - INFO - Number of records inserted into table - 1
+2023-03-04 22:58:02 - root - INFO - Reading order from target
+2023-03-04 22:58:18 - __main__ - INFO - Application has started - /home/pulkit42041/ETLpipe_MySQL_to_postgres/app.py
+2023-03-04 22:58:18 - __main__ - INFO - Env has been set to : dev
+2023-03-04 22:58:18 - __main__ - INFO - Test the reading module
+2023-03-04 22:58:18 - root - INFO - Reading order from source
+2023-03-04 22:58:18 - __main__ - INFO - Test the writing module
+2023-03-04 22:58:19 - root - INFO - Number of records inserted into table - 1
+2023-03-04 22:58:19 - root - INFO - Reading order from target

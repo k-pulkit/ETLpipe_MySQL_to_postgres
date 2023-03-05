@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:12
+    container_name: postgres-airflow
+    restart: always
+    environment:
+      PGDATA: /var/lib/postgresql/data/some_name/
+      POSTGRES_USER: ${POSTGRES_USER:-airflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-airflow}
+      POSTGRES_DB: ${POSTGRES_DB:-airflow}
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:6-alpine
+    container_name: redis-airflow
+    restart: always
+    ports:
+      - "6379:6379"
+
+  webserver:
+    image: apache/airflow:2.2.3
+    container_name: airflow-webserver
+    command: ["bash", "-c", "airflow db init && airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin && airflow webserver"]
+    depends_on:
+      - postgres
+      - redis
+    restart: always
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres:5432/${POSTGRES_DB:-airflow}
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://${POSTGRES_USER:-airflow}:${POSTGRES_PASSWORD:-airflow}@postgres/${POSTGRES_DB:-airflow}
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__WEBSERVER__SECRET_KEY=${SECRET_KEY:-changeme}
+      - AIRFLOW__WEBSERVER__WORKERS=${WORKERS:-4}
+      - AIRFLOW__WEBSERVER__ACCESS_LOGFILE=-
+      - AIRFLOW__WEBSERVER__ERROR_LOGFILE=-
+      - AIRFLOW__WEBSERVER__DAG_DEFAULT_VIEW=graph
+      - AIRFLOW__WEBSERVER__DAG_ORIENTATION=LR
+      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+    volumes:
+      - dags:/opt/airflow/dags:rw
+      - logs:/opt/airflow/logs:rw
+      - plugins:/opt/airflow/plugins:rw
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres-data:
+  dags:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/pulkit42041/airflow/dags
+  logs:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/pulkit42041/airflow/containers-data/logs
+  plugins:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/pulkit42041/airflow/containers-data/plugins
